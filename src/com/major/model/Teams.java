@@ -34,8 +34,10 @@ public class Teams {//Teams是单例的，而team则是多例的
 
 
     public  void delete(String teamname){//这个方便直接删除，不用再写在servlet和逻辑里面了
+
         for(int i=0;i<this.length;i++){
-            if(teamname.equals(this.theTeams.get(i))){
+
+            if(teamname.equals(this.theTeams.get(i).teamname)){
                 this.theTeams.remove(i);
                 this.length--;
             }
