@@ -2,7 +2,6 @@
   <library name="gson-2.7">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../env/gson-2.7.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../env/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
